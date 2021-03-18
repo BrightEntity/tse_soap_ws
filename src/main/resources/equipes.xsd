@@ -20,7 +20,7 @@
     <xs:complexType name="equipe">
         <xs:sequence>
             <xs:element name="name" type="xs:string" />
-            <xs:element name="joueurs" type="tns:joueur" />
+            <xs:element name="joueurs" type="tns:joueur" minOccurs="1" maxOccurs="unbounded" />
         </xs:sequence>
     </xs:complexType>
 
