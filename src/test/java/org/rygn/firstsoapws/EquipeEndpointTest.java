@@ -35,10 +35,8 @@ public class EquipeEndpointTest  {
                 "<equipe>" +
                 "   <name>PSG</name>" +
                 "   <joueurs>" +
-                "       <joueur>" +
                 "           <prenom>Neymar</prenom>" +
             "               <nom>da Silva Santos Junior</nom>" +
-                "       </joueur>" +
                 "   </joueurs>" +
                 "</equipe>" +
                 "</getEquipeResponse>"
